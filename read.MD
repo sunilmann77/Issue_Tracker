@@ -14,4 +14,6 @@ Features:
 
 1. Anyone can register & create projects and create issues.
 2. When the user clicks on a project (in home page) will redircect to the project details page and all issues can be seen there.
-3. User will be able to do filter task.
+3. User will be able to do filter issues.
+
+Tech stack used: Nodejs and Mongodb, html,css,js.
