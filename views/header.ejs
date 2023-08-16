@@ -1,0 +1,19 @@
+<div id="header"> 
+        <ul id="header-ul"> 
+            <li id="homepage"><a href="/">HomePage</a></li>
+            <li id="header-list">
+                <% if (locals.user){ %>
+                <div id="signout"> 
+                    <form action="/users/signout" method="get">
+                        <input id="logout"  type="submit" value="SIGNOUT" />
+                    </form>
+                </div>
+                <% if (locals.user){ %>
+                    <div id="header-user-icon">
+                        <a href="/users/profile" style="font-style: none;">Profile </a>
+                    </div>
+                    <% } %>
+                <% } %>
+            </li>
+        </ul>
+    </div>

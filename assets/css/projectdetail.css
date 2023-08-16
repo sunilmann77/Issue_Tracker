@@ -1,0 +1,93 @@
+#container{
+ width: 100%;
+ display: flex;
+}
+
+.Psection-1{
+    float:left;
+    width: 75%;
+    display: block;
+    border: rgb(196, 185, 185);
+}
+
+.Psection-1 h1,p{
+    margin-left: 5%;
+}
+.Psection-1 h2{
+    margin-left: 5%;
+}
+
+.Psection-2{
+    float:right;
+    width: 25%;
+    display: block;
+    background-color:rgb(221,221,221);
+}
+
+.Psection-2 form{
+    border: solid rgb(255, 255, 255) 2px;
+    width: 80%;  
+}
+
+#issues li{
+    background-color: rgb(174, 194, 194);
+    width: 90%;
+    margin-left: 70px;
+}
+
+#label0{
+    background-color: blue;
+    color: white;
+}
+
+#issues div{
+    margin-left: 170px;
+}
+
+#search{
+    margin-right: 40px;
+    width: 70%;
+}
+
+#resetbutton{
+    margin-left: 300px;
+}
+
+
+
+/*  */
+
+#container {
+    width: 100%;
+    display: flex;
+}
+
+.Psection-1 {
+    float: left;
+    width: 75%;
+    display: block;
+    border: rgb(196, 185, 185);
+}
+
+.Psection-2{
+    float:right;
+    width: 30%;
+    display: block;
+    background-color:rgb(221,221,221);
+}
+
+#issueList li {
+    background-color: rgb(174, 194, 194);
+    width: 90%;
+    margin-left: 70px;
+}
+
+.label {
+    background-color: blue;
+    color: white;
+}
+
+#search {
+    margin-right: 40px;
+    width: 70%;
+}

@@ -1,0 +1,30 @@
+<% if (!locals.user){ %>
+    <h1 id="Register">Register Here</h1>
+    <form action="/users/create" method="POST">
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="text" name="email" placeholder="Email" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <input type="password" name="confirm_password" placeholder="Confirm Password" required>
+        <input type="submit" value="SignUp">
+        <button id="signin" > <a href="/users/signin">SignIn Here</a></button>
+    </form>
+<% } else { %>
+    <br><br>
+<% } %>
+
+<div class="project-list-container">
+    <ul>
+        <h3>Hot Topics</h3>
+        <% for (let project of projects){ %>
+            <li id="project<%= project._id %>">
+                <div class="projectbox">
+                    <a href="/project/projectdetail/<%= project._id %>">
+                        <h3 id="project-name"><%= project.name %></h3>
+                      </a>
+                    <p><%= project.description %></p>
+                    <p><strong>Author:</strong> <%= project.author %></p>
+                    </div>
+            </li>
+       <% } %>
+    </ul>
+</div>

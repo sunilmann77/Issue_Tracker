@@ -1,0 +1,47 @@
+/* Style for the "SignIN Page" header */
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the form */
+  
+  /* Style for form inputs */
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  /* Style for the "SignIN" button */
+  button[type="submit"] {
+    background-color: #fc5102; /* Green background color */
+    color: #fff; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    font-size: 16px; /* Font size */
+  }
+  
+  /* Hover effect for the "SignIN" button */
+  button[type="submit"]:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+  }
+  
+  /* Style for the "Google SignIN/SignUP" link */
+  a {
+    display: block;
+    color: #6b14cf; /* Green color */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  /* Hover effect for the "Google SignIN/SignUP" link */
+  a:hover {
+    color: #45a049; /* Slightly darker green on hover */
+  }
+  

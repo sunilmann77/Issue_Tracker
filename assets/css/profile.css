@@ -1,0 +1,61 @@
+/* Reset some default styles for better layout */
+body, ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+/* Flex container to hold the two sections side by side */
+#container {
+    display: flex;
+    height: 900px;
+}
+
+/* Section 1 with 60% width */
+#section-1 {
+    flex: 70%;
+    padding: 20px;
+    background-color: #f1f1f1;
+    height: 100%;
+}
+
+/* Section 2 with 35% width */
+#section-2 {
+    flex: 25%;
+    padding: 20px;
+    background-color: #ddd;
+    height: 100%;
+}
+
+/* Style for project list items */
+.projectbox {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Style for the "Create A Project" button */
+#Project {
+    background-color: #11a793; /* Green background color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Padding (vertical, horizontal) */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    font-size: 16px; 
+  }
+  
+  /* Hover effect for the button */
+  #Project:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+  }
+
+  #author{
+    color: rgb(77, 69, 69);
+    font-weight: bold;
+  }
+
+  #searchForm{
+    margin-left: 30px;
+  }

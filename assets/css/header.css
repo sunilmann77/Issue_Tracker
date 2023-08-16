@@ -1,0 +1,50 @@
+/* Reset some default styles */
+body, ul {
+  margin: 0;
+  padding: 0;
+  height: 35px;
+  width: 100%;
+}
+
+/* Style for the header */
+#header {
+  background-color: #bbaaaa;
+  color: #fff;
+  display: flex;
+}
+#homepage{
+  list-style-type: none;
+  display: flex; /* Align the list items horizontally */
+  margin-left: 10px;
+  font-size: 20px;
+  color: #fff;
+  margin-top: 10px;
+  height: 30px;
+  width: 100px;
+}
+/* Style for the header links */
+#header-user-icon{
+  font-size: 20px;
+  color: #fff;
+  margin-left: 150px;
+  margin-top: -70px;
+}
+
+#logout{
+  background-color: #6c6a81; 
+  color: #fff; 
+  border: none; 
+  border-radius: 5px;
+  cursor:pointer;
+  padding: 7px 7px;
+  float: right;
+  margin-right: -250px;
+  margin-top: -50px;
+}
+
+form {
+  width: 60%; /* Set the width of the form to 60% of the container */
+  margin: 0 auto; /* Center the form horizontally within the container */
+  padding: 20px;
+  border-radius: 5px;
+}

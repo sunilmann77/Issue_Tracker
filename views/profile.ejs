@@ -1,0 +1,34 @@
+<div id="container">
+    <div id="section-1">
+        <h2>Your Projects</h2>
+
+        <form id="searchForm" action="projects" method="get">
+            <input type="text" name="search" placeholder="Enter project name or description">
+            <button type="submit">Search</button>
+          </form>
+        <!-- owner project list -->
+        <div class="project-list-container">
+            <ul>
+                <% for (let project of projects){ %>
+                    <li id="project<%= project._id %>">
+                        <div class="projectbox">
+                            <% if (locals.user) { %>
+                            <a href="/project/projectdetail/<%= project._id %>">
+                                <h3><%= project.name %></h3>
+                              </a>
+                            <p><%= project.description %></p>
+                            <p id="author">Author: <%= project.author %></p>
+                            <% } %>
+                        </div>
+                    </li>
+                <% } %>
+            </ul>
+        </div>
+    </div>
+    <div id="section-2">
+        <h3>Create a New Project:</h3>
+        <form action="/project/project" method="get">
+            <input id="Project" type="submit" value="Create A Project" />
+        </form>
+    </div>
+</div>

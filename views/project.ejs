@@ -1,0 +1,17 @@
+
+<h1>Project</h1>
+
+<form id="projectForm"  action="/project/create" method="post">
+    <label for="projectName">Project Name:</label>
+    <input type="text" id="projectName" name="name" required>
+    <br>
+    <label for="projectDescription">Project Description:</label>
+    <textarea id="projectDescription" name="description" rows="4" cols="50" required></textarea>
+    <br>
+
+    <label for="author">Author:</label>
+    <input type="text" id="author" name="author" required>
+    <br>
+
+    <input type="submit" id="create-project" value="Create Project">
+</form>

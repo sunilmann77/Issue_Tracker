@@ -1,0 +1,35 @@
+/* Style for the "Project Page" header */
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for form labels */
+  label {
+    font-weight: bold;
+  }
+  
+  /* Style for form inputs */
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  /* Style for the "Create Project" button */
+
+  #create-project{
+    background-color: #765d8a; /* Green background color */
+    color: #fff; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 5px;
+    cursor:pointer;
+    padding: 5px 5px;
+  }
+  
+  
